@@ -31,6 +31,7 @@
             <input type="number" id="number" min="13" max="99" placeholder="Age" required>
             <label for="dropdown">What best describes your career?</label>
             <select id="dropdown">
+                <option disabled selected value>Select an option</option>
                 <option value="frontend">Front End Development</option>
                 <option value="backend">Back End Development</option>
                 <option value="fullstack">Full Stack Development</option>
@@ -39,6 +40,12 @@
             <input type="radio" name="ide" value="1"> Atom
             <input type="radio" name="ide" value="2"> Brackets
             <input type="radio" name="ide" value="3"> Visual Studio Code
+            <label for="preferences">What is important to you when it comes to work?</label>
+            <ul id="preferences">
+                <li><input type="checkbox" value="1"> Flexibility</li>
+                <li><input type="checkbox" value="2"> Clearly defined goals</li>
+            </ul>
+
         </form>
     </main>
 </body>
