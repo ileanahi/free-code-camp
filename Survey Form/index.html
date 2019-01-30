@@ -47,17 +47,21 @@
                     <option value="fullstack">Full Stack Development</option>
                 </select>
             </div>
-            <div class="form-group">
-                <label for="ide">What is your favorite code editor?</label>
-                <input class="form-control" type="radio" name="ide" value="1"> Atom
-                <input class="form-control" type="radio" name="ide" value="2"> Brackets
-                <input class="form-control" type="radio" name="ide" value="3"> Visual Studio Code
+            What is your favorite code editor?
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="ide" id="atom" value="1"> <label class="form-check-label" for="atom">Atom</label>
             </div>
-            <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="ide" id="brackets" value="2"> <label class="form-check-label" for="brackets">Brackets</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="ide" id="vsc" value="3"> <label class="form-check-label" for="vsc">Visual Studio Code</label>
+            </div>
+            <div class="form-check">
                 <label for="preferences">What is important to you when it comes to work?</label>
                 <ul id="preferences">
-                    <li><input class="form-control" type="checkbox" value="1"> Flexibility</li>
-                    <li><input class="form-control" type="checkbox" value="2"> Clearly defined goals</li>
+                    <li><input class="form-check-input" type="checkbox" value="1"> Flexibility</li>
+                    <li><input class="form-check-input" type="checkbox" value="2"> Clearly defined goals</li>
                 </ul>
             </div>
             <div class="form-group">
